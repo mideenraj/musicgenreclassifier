@@ -1,0 +1,1 @@
+This folder will contain processed datasets as numpy arrays to be used for training.
