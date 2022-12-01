@@ -144,8 +144,7 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# Model
-models/*.pth
+
 
 # Environments
 .env
