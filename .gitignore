@@ -190,4 +190,4 @@ cython_debug/
 runs/
 
 # Ignore models
-*.pt
+*.pth
