@@ -189,7 +189,7 @@ class Model:
 
     def load_model(self):
         """Load an existing model"""
-        loaded_model = torch.load(self.model_path)
+        loaded_model = torch.load(self.model_path, map_location=self.device)
         self.net.load_state_dict(loaded_model['state_dict'])
         self.optimizer.load_state_dict(loaded_model['optimizer'])
         print('Model loaded from file path')
